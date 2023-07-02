@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Caveat", cursive;
+    font-family: fantasy;
+    font-family: "Quicksand", sans-serif;
+  }
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(130deg, #a7ed0e, #0559f4);
+    padding: 10px;
+  }
+  
+  .start {
+    display:flex; /* Use flexbox to create a flexible container */
+    align-items:center;
+    color: #f71c08;
+    background: #f5f3f4;
+    justify-content: center;
+    margin: 50px auto 30px;
+    width: fit-content;
+  }
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+  }
+   
+  .end {
+    border-radius: 20px;
+  }
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: #acf307;
+    padding: 10px;
+    font-weight: 20px;
+    border-radius: 30px;
+    margin-top: -11px;
+    margin-right: 0px;
+    margin-left: -20px;
+  }
+  ::placeholder {
+    color: #f30303;
+  }
+  button {
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    background: #946887;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 100px;
+    margin: -38px 0px 0px 0px;
+    margin-top: -80px;
+    
+    
+  }
+  button:hover{
+    size: 100px;
+    background-color: #0a0a0b;
+    font-size: larger;
+    font-weight: 100;
+    
+
+  }
+  ul li {
+    list-style:decimal;
+    font-size: 20px;
+    padding: 12px 12px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    color: #000000;
+    position: relative;
+  }
+  ul li ::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+  }
+   ul li.checked {
+    color: #2707f9;
+    text-decoration: line-through;
+   } 
+  
+  ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #946887;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 20px;
+  }  
+   ul li span :hover {
+    background: #946887;
+    font-size: larger;
+  } 
